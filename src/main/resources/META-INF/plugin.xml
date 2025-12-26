@@ -1,0 +1,44 @@
+<idea-plugin>
+    <id>com.github.sitharaj88.prism_pro_theme</id>
+    <name>Prism Pro Theme</name>
+    <vendor email="sitharaj.info@gmail.com" url="https://github.com/sitharaj88">Sitharaj Seenivasan</vendor>
+
+    <description><![CDATA[
+    Prism Pro Theme is a modern, vibrant theme pack for JetBrains IDEs loved by developers. It features both Dark and Light variants with carefully crafted colors for long coding sessions.
+
+    <h3>Themes Included</h3>
+    <ul>
+        <li><b>Prism Pro Dark</b> - Deep purple-black backgrounds with neon accents (purple, cyan, green)</li>
+        <li><b>Prism Pro Light</b> - Soft lavender tones with vibrant syntax colors</li>
+    </ul>
+
+    <h3>Color Palette</h3>
+    <ul>
+        <li><b>Keywords:</b> Purple (#a277ff / #8338ec)</li>
+        <li><b>Functions:</b> Cyan (#82e2ff / #2196f3)</li>
+        <li><b>Strings:</b> Green (#61ffca / #00a67e)</li>
+        <li><b>Classes:</b> Orange (#ffca85 / #f59e0b)</li>
+        <li><b>Constants:</b> Pink (#f694ff / #c026d3)</li>
+    </ul>
+
+    <h3>Features</h3>
+    <ul>
+        <li>Full UI coverage - every component styled consistently</li>
+        <li>Comprehensive syntax highlighting for all languages</li>
+        <li>Git integration with custom diff and VCS colors</li>
+        <li>Optimized contrast for reduced eye strain</li>
+    </ul>
+
+    <h3>Compatibility</h3>
+    <p>Works with IntelliJ IDEA, Android Studio, WebStorm, PyCharm, PhpStorm, GoLand, RubyMine, CLion, Rider, DataGrip, Fleet and all other JetBrains IDEs.</p>
+
+    <p>Source Code: <a href="https://github.com/sitharaj88/prisma_pro_theme">GitHub Repository</a></p>
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="prism_pro_dark" path="/prism_pro_dark.theme.json"/>
+        <themeProvider id="prism_pro_light" path="/prism_pro_light.theme.json"/>
+    </extensions>
+</idea-plugin>
