@@ -5,19 +5,19 @@
     "editorScheme": "/prism_pro_dark.xml",
     "ui": {
         "*": {
-            "background": "#15141b",
-            "foreground": "#edecee",
-            "disabledForeground": "#6d6d6d",
-            "disabledBackground": "#1a1921",
-            "errorForeground": "#ff6767",
-            "infoForeground": "#82e2ff",
-            "selectionBackground": "#3d375e",
+            "background": "#0f111a",
+            "foreground": "#a6accd",
+            "disabledForeground": "#464b5d",
+            "disabledBackground": "#131520",
+            "errorForeground": "#ff5370",
+            "infoForeground": "#82aaff",
+            "selectionBackground": "#717cb425",
             "selectionForeground": "#ffffff",
-            "selectionInactiveBackground": "#2e2b3b",
-            "separatorColor": "#29263c",
-            "borderColor": "#29263c",
-            "focusColor": "#a277ff",
-            "focusBorderColor": "#a277ff"
+            "selectionInactiveBackground": "#191c29",
+            "separatorColor": "#1a1c29",
+            "borderColor": "#1a1c29",
+            "focusColor": "#c792ea",
+            "focusBorderColor": "#c792ea"
         },
         "ActionButton": {
             "hoverBackground": "#29263c",
@@ -29,19 +29,19 @@
             "ContrastBorderColor": "#29263c"
         },
         "Button": {
-            "foreground": "#edecee",
-            "startBackground": "#29263c",
-            "endBackground": "#29263c",
-            "startBorderColor": "#3d375e",
-            "endBorderColor": "#3d375e",
-            "focusedBorderColor": "#a277ff",
+            "foreground": "#a6accd",
+            "startBackground": "#1a1c29",
+            "endBackground": "#1a1c29",
+            "startBorderColor": "#2b2d3d",
+            "endBorderColor": "#2b2d3d",
+            "focusedBorderColor": "#89ddff",
             "default": {
-                "foreground": "#15141b",
-                "startBackground": "#a277ff",
-                "endBackground": "#8b5cf6",
-                "startBorderColor": "#a277ff",
-                "endBorderColor": "#8b5cf6",
-                "focusedBorderColor": "#c4a7ff"
+                "foreground": "#0f111a",
+                "startBackground": "#89ddff",
+                "endBackground": "#89ddff",
+                "startBorderColor": "#89ddff",
+                "endBorderColor": "#89ddff",
+                "focusedBorderColor": "#c792ea"
             }
         },
         "CheckBox": {
@@ -77,9 +77,9 @@
             "inactiveUnderlineColor": "#6d6d6d"
         },
         "Editor": {
-            "background": "#15141b",
-            "foreground": "#edecee",
-            "shortcutForeground": "#a277ff"
+            "background": "#0f111a",
+            "foreground": "#a6accd",
+            "shortcutForeground": "#c792ea"
         },
         "EditorPane": {
             "background": "#15141b"
@@ -238,8 +238,8 @@
             "passedEndColor": "#61ffca"
         },
         "RadioButton": {
-            "foreground": "#edecee",
-            "background": "#15141b"
+            "foreground": "#f8f8f2",
+            "background": "#12101f"
         },
         "RunWidget": {
             "background": "#1a1921",
@@ -438,43 +438,43 @@
     },
     "icons": {
         "ColorPalette": {
-            "Actions.Blue": "#82e2ff",
-            "Actions.Green": "#61ffca",
-            "Actions.Grey": "#edecee",
-            "Actions.GreyInline": "#6d6d6d",
-            "Actions.GreyInline.Dark": "#edecee",
-            "Actions.Red": "#ff6767",
-            "Actions.Yellow": "#ffca85",
-            "Checkbox.Background.Default": "#1a1921",
-            "Checkbox.Background.Default.Dark": "#1a1921",
-            "Checkbox.Background.Disabled": "#29263c",
-            "Checkbox.Background.Selected": "#a277ff",
-            "Checkbox.Background.Selected.Dark": "#a277ff",
-            "Checkbox.Border.Default": "#6d6d6d",
-            "Checkbox.Border.Default.Dark": "#6d6d6d",
-            "Checkbox.Border.Disabled": "#6d6d6d",
-            "Checkbox.Border.Selected": "#a277ff",
-            "Checkbox.Border.Selected.Dark": "#a277ff",
-            "Checkbox.Focus.Thin.Default": "#a277ff",
-            "Checkbox.Focus.Thin.Default.Dark": "#a277ff",
-            "Checkbox.Focus.Thin.Selected": "#a277ff",
-            "Checkbox.Focus.Thin.Selected.Dark": "#a277ff",
-            "Checkbox.Focus.Wide": "#a277ff50",
-            "Checkbox.Foreground.Disabled": "#6d6d6d",
-            "Checkbox.Foreground.Selected": "#15141b",
-            "Checkbox.Foreground.Selected.Dark": "#15141b",
-            "Objects.Blue": "#82e2ff",
-            "Objects.Green": "#61ffca",
-            "Objects.GreenAndroid": "#61ffca",
-            "Objects.Grey": "#edecee",
-            "Objects.Pink": "#f694ff",
-            "Objects.Purple": "#a277ff",
-            "Objects.Red": "#ff6767",
-            "Objects.RedStatus": "#ff6767",
-            "Objects.Yellow": "#ffca85",
-            "Objects.YellowDark": "#ffca85",
-            "Objects.BlackText": "#15141b",
-            "Tree.iconColor": "#edecee"
+            "Actions.Blue": "#82aaff",
+            "Actions.Green": "#c3e88d",
+            "Actions.Grey": "#a6accd",
+            "Actions.GreyInline": "#464b5d",
+            "Actions.GreyInline.Dark": "#a6accd",
+            "Actions.Red": "#ff5370",
+            "Actions.Yellow": "#ffcb6b",
+            "Checkbox.Background.Default": "#131520",
+            "Checkbox.Background.Default.Dark": "#131520",
+            "Checkbox.Background.Disabled": "#1a1c29",
+            "Checkbox.Background.Selected": "#c792ea",
+            "Checkbox.Background.Selected.Dark": "#c792ea",
+            "Checkbox.Border.Default": "#464b5d",
+            "Checkbox.Border.Default.Dark": "#464b5d",
+            "Checkbox.Border.Disabled": "#464b5d",
+            "Checkbox.Border.Selected": "#c792ea",
+            "Checkbox.Border.Selected.Dark": "#c792ea",
+            "Checkbox.Focus.Thin.Default": "#c792ea",
+            "Checkbox.Focus.Thin.Default.Dark": "#c792ea",
+            "Checkbox.Focus.Thin.Selected": "#c792ea",
+            "Checkbox.Focus.Thin.Selected.Dark": "#c792ea",
+            "Checkbox.Focus.Wide": "#c792ea50",
+            "Checkbox.Foreground.Disabled": "#464b5d",
+            "Checkbox.Foreground.Selected": "#0f111a",
+            "Checkbox.Foreground.Selected.Dark": "#0f111a",
+            "Objects.Blue": "#82aaff",
+            "Objects.Green": "#c3e88d",
+            "Objects.GreenAndroid": "#c3e88d",
+            "Objects.Grey": "#a6accd",
+            "Objects.Pink": "#f07178",
+            "Objects.Purple": "#c792ea",
+            "Objects.Red": "#ff5370",
+            "Objects.RedStatus": "#ff5370",
+            "Objects.Yellow": "#ffcb6b",
+            "Objects.YellowDark": "#ffcb6b",
+            "Objects.BlackText": "#0f111a",
+            "Tree.iconColor": "#a6accd"
         }
     }
 }
